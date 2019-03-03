@@ -1,0 +1,164 @@
+*
+{
+    margin: 0;
+    padding: 0;
+}
+body
+{
+    font-family: sans-serif
+
+}
+#nav-bar
+{
+    position: sticky;
+    top: 0;
+    z-index: 10;
+}
+.navbar
+{
+    background-color: #2dd1c3;
+    padding: 0 !important;
+    border: 10px black;
+}
+.navbar-brand img
+{
+    height: 40px;
+    padding-left: 20px;
+}
+.navbar-nav li
+{
+    padding: 0 10px;
+}
+.navbar-nav li a
+{
+    color: white !important;
+    font-weight: 600;
+    float: right;
+    text-align:left;
+}
+.navbar-brand 
+{
+    color: white !important;
+    font-weight: 700; 
+}
+.sticky {
+    position: fixed;
+    width: 100%;
+    left: 0;
+    top: 0;
+    z-index: 100;
+    border-top: 0;
+}
+.fa-bars
+{
+    color: white;
+    font-size: 30px !important;
+}
+.navbar-toggler
+{
+    outline: none !important;
+}
+/*--------------------banner section-----------------*/
+#banner
+{
+    background-image: linear-gradient(to bottom,  #64d6cd,  #cefff2);
+    color: white;
+    padding-top: 5%
+}
+.heading
+{
+    font-size: 40px;
+    font-weight: 600;
+    margin-top: 100;
+}
+.intro
+{
+    font-size: 20px;
+    font-weight: 400  
+}
+.me-img
+{
+    width: 300px;
+    height: 300px;
+    margin-bottom: 20px;  
+}
+.bottom-img
+{
+    width: 100%;
+    margin-bottom: 0px;
+}
+
+/*----------------------Other pages------------------*/ 
+#about-me{
+padding: 30px;
+
+
+}
+
+#projects{
+    padding: 30px;
+
+}
+
+#skills{
+  
+    padding: 30px;
+
+}
+
+.subheadings
+{
+    margin-right: 10px;
+    padding-right: 10px;
+    color:  #2dd1c3;
+}
+.body-text
+{
+    color: black;
+}
+.project-img
+{
+    width: 180px;
+    height: 180px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border-radius: 20%;
+}
+.tag-img{
+width: 100px;
+}
+.tag1-img{
+    margin-top: 16px;
+width: 100px;
+}
+
+.skills-img
+{
+    width: 120px;
+    height: 120px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+.small-headings
+{
+    color: grey;
+  
+}
+
+
+/*--------------------------contacts section--------------------*/
+#contact 
+{
+    background: #f8f9fa;
+    padding: 60px 0;
+
+}
+#contact img
+{
+margin: 5px;
+    width: 50px;
+}
+#contact p{
+    color: #575757;
+    margin:10px;
+}
