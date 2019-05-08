@@ -84,7 +84,7 @@ width: 100%;
       width: 24em;
       margin: 0 auto;
       border-right: 2px solid rgba(255,255,255,.75);
-      font-size: 350%;
+      font-size: 4vw !important;
       text-align: center;
       white-space: nowrap;
       overflow: hidden;
